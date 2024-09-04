@@ -43,7 +43,7 @@
         <form action="second" method="POST">
             <script
                 src="https://checkout.razorpay.com/v1/checkout.js"
-                data-key="rzp_test_m8Ts2ANbu9AjRp"
+                data-key=""
                 data-amount=${amount}
                 data-currency="INR"
                 data-order_id=${id}
