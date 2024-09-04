@@ -109,7 +109,7 @@ public class LogicController {
 
         addressRepository.save(addr);
 
-        RazorpayClient razorpay = new RazorpayClient("rzp_test_m8Ts2ANbu9AjRp", "bvjwEDGH5CfdDMInSsSDlQWj");
+        RazorpayClient razorpay = new RazorpayClient("", "");
 
         JSONObject orderRequest = new JSONObject();
         orderRequest.put("amount", (price * 100));
